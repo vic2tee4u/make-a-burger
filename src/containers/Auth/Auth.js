@@ -156,7 +156,7 @@ class Auth extends Component {
                 {form}
                 <Button btnType='Success'>SUBMIT</Button>
                 </form>
-                <h4>{this.state.isSignup? 'Already Registered?' : 'No Account yet?'}</h4>
+                <h4>{this.state.isSignup? 'Already Registered?' : 'No Account Yet?'}</h4>
                 <Button 
                 clicked={this.switchAuthModeHandler}
                 btnType='Danger'>Switch to {this.state.isSignup? 'Sign In' : 'Sign Up'}</Button>
